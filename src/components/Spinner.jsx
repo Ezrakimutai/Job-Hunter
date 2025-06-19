@@ -1,5 +1,5 @@
 import React from "react";
-import { FadeLoader } from "react-spinners";
+import { ClipLoader } from "react-spinners";
 
 const override = {
   display: "block",
@@ -8,7 +8,7 @@ const override = {
 
 const Spinner = ({ loading }) => {
   return (
-    <FadeLoader
+    <ClipLoader
       color="#4338ca"
       loading={loading}
       cssOverride={override}
