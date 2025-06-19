@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../assets/images/logo.png";
 import { NavLink } from "react-router-dom";
 import { FaBriefcase } from "react-icons/fa";
 
